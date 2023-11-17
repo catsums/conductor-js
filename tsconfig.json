@@ -1,0 +1,22 @@
+{
+	"compilerOptions": {
+		"incremental": true,
+		"target": "ESNext",
+		"module":"NodeNext",
+		"skipLibCheck": false,
+		"esModuleInterop": true,
+		"declaration": true,
+		"allowJs": true,
+		// "moduleResolution": "NodeNext",
+
+		// "allowImportingTsExtensions": true,
+		"isolatedModules": true,
+
+		/* Linting */
+		"strict": false,
+		"outDir": "lib"
+	},
+	"include": ["src/**/*"],
+	"typeRoots": ["./node_modules/@types", "./src"]
+}
+  
